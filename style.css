@@ -64,6 +64,11 @@ header {
   font-size: 18px;
   color: white;
   border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.my-btn:hover {
+  background-color: #333;
 }
 
 .bannar-product-title {
