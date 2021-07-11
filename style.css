@@ -1,0 +1,107 @@
+/* Font Integration */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap");
+
+/* Browser Reset Code */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.carousel-indicators .active {
+  background-image: linear-gradient(to right, #f47c00, #ff8319);
+  width: 40px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: lightgray;
+  width: 10px;
+  height: 10px;
+  border-radius: 12px;
+}
+
+header {
+  position: relative;
+}
+
+.bg-text,
+.bg-left {
+  position: absolute;
+}
+
+.bg-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75px;
+}
+
+.bg-left {
+  left: -2%;
+  bottom: -5%;
+  width: 175px;
+}
+
+.my-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #000;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+}
+
+.bannar-product-title {
+  font-size: 41px;
+}
+
+.bannar-product-details {
+  font-size: 18px;
+  color: #707070;
+}
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  font-size: 30px;
+}
+
+.section-header a {
+  text-decoration: none;
+  color: #f47c00;
+  font-size: 22px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.card-text {
+  margin-bottom: 30px;
+}
+
+.price {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
